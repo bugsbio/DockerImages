@@ -6,4 +6,4 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 RUN apt-get update -y
 
 RUN apt-get install -y libpq-dev r-recommended littler
-RUN /usr/share/doc/littler/examples/install.r gtools fMultivar RPostgreSQL Rserve
+RUN /usr/share/doc/littler/examples/install.r gtools fMultivar rmutil RPostgreSQL Rserve
